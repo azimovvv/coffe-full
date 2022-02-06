@@ -1,0 +1,7 @@
+.item {
+    text-align: center;
+    margin-right: 30px;
+    &:last-child {
+        margin-right: 0;
+    }
+}

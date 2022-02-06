@@ -1,0 +1,102 @@
+.coffee-type__collection {
+    margin-top: 351px;
+}
+
+.coffee-type__text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.coffe__type-unlist {
+    @include list-unstyled;
+    display: flex;
+    margin-top: 80px;
+    position: relative;
+}
+
+.coffe_type-unitem {
+    margin-right: 349px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.coffe_type-span {
+    @include nospace;
+    width: 31px;
+    height: 31px;
+    display: block;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.coffe_type-unitems {
+    position: absolute;
+    top: 15px;
+    left: 1.48%;
+    z-index: -1;
+}
+
+.coffe_type-spans {
+    @include nospace;
+    border: 2px solid #FDD6BA;
+    width: 760px;
+    height: 1px;
+    display: block;
+}
+
+.coffee-type__list {
+    @include list-unstyled;
+    display: flex;
+}
+
+.coffee-type__item {
+    @include nospace;
+    width: 285px;
+    margin-top: 67px;
+    margin-right: 95px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.coffee-type__item-number {
+    @include nospace;
+    width: 90px;
+    height: 72px;
+    display: block;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.coffee-type__item-title {
+    @include nospace;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+    width: 255px;
+}
+
+.coffee-type__item-descibe {
+    @include nospace;
+    margin-top: 42px;
+    font-family: 'Barlow';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    margin-bottom: 79px;
+}

@@ -1,0 +1,104 @@
+.benefits {
+    margin: 0;
+    padding: 0;
+}
+
+.benefits__container {
+    margin-top: 200px;
+    background-color: #2C343E;
+    height: 577px;
+    border-radius: 10px;
+}
+
+.benefits__contact {
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.benefits__title {
+    @include nospace;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    color: #FEFCF7;
+}
+
+.benefits__describe {
+    font-family: 'Barlow';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.benefits__list {
+    @include list-unstyled;
+    display: flex;
+}
+
+.benefits__nav-collection {
+    margin-top: 86px;
+}
+
+
+.benefits__item {
+    @include nospace;
+    padding: 72px 48px 48px 47px;
+    background-color: #0E8784;
+    border-radius: 8px;
+}
+
+.benefits__item-title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+}
+
+.benefits__item-text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.benefits__item-img {
+    margin: 0;
+    padding: 0;
+    width: 71px;
+    height: 72px;
+    background-image: url(../img/coffffe.svg);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 89px;
+}
+
+.benefits__item-imger {
+    margin: 0;
+    padding: 0;
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/gift.svg);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 89px;
+}
+
+.benefits__item-imgers {
+    margin: 0;
+    padding: 0;
+    width: 72px;
+    height: 72px;
+    background-image: url(../../img/car.svg);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 89px;
+}
+
